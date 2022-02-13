@@ -1,0 +1,13 @@
+body{text-align:center;}
+h3 {font-size:28px;}
+.btn-success:hover{
+  padding:10px;
+  background-color:pink;
+  
+}
+canvas{animation-name:example;
+  animation-duration:4s;
+
+animation-iteration-count:infinite;}
+@keyframes example{from{box-shadow:5px 5px 10px red;}
+  to{box-shadow:5px 5px 10px yellow;}}
